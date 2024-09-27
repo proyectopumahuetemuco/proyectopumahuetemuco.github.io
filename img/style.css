@@ -1,0 +1,36 @@
+.img-same-size {
+    width: 250px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Recorta si es necesario */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Usamos Flexbox para alinear los divs uno al lado del otro */
+.container {
+    display: flex;
+    flex-direction: row; /* Hace que los divs estén en fila */
+    justify-content: space-between; /* Separa los divs */
+    padding: 20px;
+}
+
+/* Estilos para cada una de las secciones */
+.section {
+    flex: 1; /* Hace que ambas secciones ocupen el mismo espacio */
+    margin: 10px; /* Espacio entre los divs */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.section1 {
+    background-color: #f0f0f0;
+}
+
+.section2 {
+    background-color: #d0e8f2;
+}

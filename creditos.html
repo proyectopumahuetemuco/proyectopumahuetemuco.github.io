@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créditos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: calc(100vh - 80px); /* Resta el alto del header */
+        }
+
+        .creditos-container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px 0;
+        }
+
+        .imagenes-container {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e0e0e0;
+            padding: 10px;
+            width: 100%;
+            border-bottom: 2px solid #ccc;
+        }
+
+        header img {
+            width: 50px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"> <!-- Redirecciona a "pagina.html" -->
+            <div class="home-icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="Icono de inicio">
+            </div>
+        </a>
+        <div class="logo">
+            <img src="./img/pumahue-temuco-icono (1).webp" alt="Logo Colegio Pumahue">
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="creditos-container">
+            <h1>Créditos</h1>
+            <p>Esta página fue creada por personas que se dedicaron el tiempo a colaborar, trabajar en equipo y traer un resultado de buen esfuerzo.</p>
+            <p>Cada uno de los integrantes del equipo trabajaron duro en su rol.</p>
+            <p>Y esperemos haber traído un producto interesante y demostrar que nos entretuvimos preparándolo.</p>
+        </div>
+
+        <div class="imagenes-container">
+            <img src="./img/creditos/equipo.png" alt="Imagen del equipo">
+        </div>
+        <div class="creditos-container">
+            <h1>Autores.</h1>
+            <p>Desarrolladores: Facundo Aguayo - Bruno Orellana.</p>
+            <p>Diseñadores: Matias Moraga - Rafael Pérez.</p>
+            <p>Docentes guías: Noelia Silva - Génesis Voisier.</p>
+            <br>
+            <p>También damos las gracias a mister Gonzalo Castro (brigada escolar), miss Fernanda Hagedorn y 
+                al estudiante Agustín Alveal (Pumamedios) por colaborar con material de sus talleres para la página web.</p>
+        </div>
+
+        <div class="imagenes-container">
+            <img src="./img/creditos/code.jpg" alt="Código">
+        </div>
+        
+        <div class="creditos-container">
+            <h1>¡Muchas gracias por tu visita!</h1>
+        </div>
+        <div class="imagenes-container">
+            <img src="./img/creditos/equipo2.png" alt="Imagen del equipo 2">
+        </div>
+
+    </div>
+</body>
+
+</html>
